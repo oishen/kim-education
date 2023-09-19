@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Architects Daughter', cursive;
+}
+body{
+    background-color: black;
+    color: gray;
+}
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+a{
+    transition: .5s;
+    color: gray;
+}
+a:hover{
+    color: #F2B809;
+}
+.little{
+    font-size: 50px;
+    color: #F2B809;
+    font-family: 'Architects Daughter', cursive;
+}
+.para{
+    font-size: 18px;
+    color: gray;
+}
+#MENU1{
+    display: none;
+}
+#nav-front{
+    border: 1px solid #F2B809; 
+    border-top: 0; 
+    border-left: 0; 
+    border-right: 0; 
+    padding-bottom: 5px; 
+    transition: 2s; 
+    color: #F2B809;
+}
+#btn-html{
+    padding: 50px; 
+    text-align: center; 
+    width: 100%;
+    transition: .5s;
+}
+.rounded-1 a:hover span{
+    display: none;
+}
+.rounded-1 a:hover:before{
+    content: "Page loading...";
+}
+#sec-dark{
+    text-align: center; 
+    padding: 100px 200px; 
+    color: white;
+    background-color: black;
+}
+#sec-next{
+    padding: 100px 200px;
+    text-align: center;
+}
+#sec-dark-add{
+    background-color: #282A35;
+    display: flex;
+    justify-content: center;
+}
+#sec-dark1{
+    text-align: center; 
+    padding: 100px 200px; 
+    color: white;
+}
+#sec-img{
+    width: 800px; 
+    margin-top: 50px;
+}
+#sec-dark1 a{
+    text-align: center; 
+    padding: 10px 20px;
+    transition: .5s;
+}
+#sec-dark1 a:hover{
+    background-color: #F2B809;
+    border: 0;
+    color: black;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+#div-footer{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+#div-footer a{
+    padding: 10px 20px;
+    text-align: center;
+    transition: .5s;
+}
+#div-footer a:hover{
+    background-color: #F2B809;
+    color: black;
+}
+footer i{
+    width: 20px;
+    margin: auto;
+    transition: .5s;
+}
+footer i:hover{
+    color: #F2B809;
+    font-size: 50px;
+}
+.mapouter{
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 50vh;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 50vh;
+}
+.gmap_iframe {
+    height: 50vh !important;
+}
+
+@media only screen and (max-width: 1200px){
+    #sec-dark1{
+        padding: 100px 20px;
+    }
+    #sec-img{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 992px){
+    .little{
+        font-size: 30px;
+    }
+    .nav-item a{
+        display: none;
+    }
+    #MENU1{
+        display: block;
+    }
+    #btn-html{
+        padding: 30px;
+    }
+    #sec-dark, #sec-next{
+        padding: 100px 20px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #sec-dark1 a{
+        padding: 5px;
+        font-size: 14px;
+    }
+    #div-footer a{
+        padding: 5px;
+        font-size: 12px;
+    }
+    #footer{
+        padding: 10px;
+    }
+}

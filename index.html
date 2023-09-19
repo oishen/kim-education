@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/22eec7c445.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="logo.png"/>
+    <title>
+        Kim.com
+    </title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm p-1 container fixed-top">
+        <div class="container">
+            <a href="index.html">
+                <img src="logo.png" style="width: 60px;">
+            </a>
+    
+            <ul class="navbar-nav col-sm-8">
+                <li class="nav-item ms-4 pt-1">
+                    <a href="front-end.html" class="text-decoration-none">Front End</a>
+                </li>
+                <li class="nav-item ms-4 pt-1">
+                    <a href="back-end.html" class="text-decoration-none">Back End</a>
+                </li>
+                <li class="nav-item ms-4 pt-1">
+                    <a href="full-stack.html" class="text-decoration-none">Full Stack</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav justify-content-end col-sm-3">
+                <li class="nav-item me-3">
+                    <a href="signup.html" class="btn btn-success rounded-1 text-light">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a href="signin.html" class="btn btn-primary rounded-1 text-light">Sign In</a>
+                </li>
+            </ul>
+            <div class="dropdown dropstart" id="MENU1">
+                <a href="#" class="btn text-light border-0" data-bs-toggle="dropdown">
+                    <i class="fa-solid fa-bars" style="font-size: 18px;"></i>
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                    <li class="dropdown-item text-light"><a href="front-end.html" class="text-decoration-none">Front-End</a></li>
+                    <li class="dropdown-item text-light"><a href="back-end.html" class="text-decoration-none">Back-End</a></li>
+                    <li class="dropdown-item text-light"><a href="full-stack.html" class="text-decoration-none">Full Stack</a></li>
+                    <li class="dropdown-item text-light"><a href="signup.html" class="text-decoration-none">Sign Up</a></li>
+                    <li class="dropdown-item text-light"><a href="loading.html" class="text-decoration-none">Log In</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container p-5 mt-5">
+        <div class="container">
+            <h1 class="little">Web Development Roadmaps</h1>
+        </div>
+    </div>
+
+    <div id="sec-dark">
+        <h1 class="little"><b>Front-End Roadmap</b></h1><br>
+        <p class="para">To become a wep developer, start with the subjects below, in the following order:</p>
+        <p href="" class="bg-warning rounded-1 little text-dark" id="btn-html"><b>HTML</b></p>
+        <div class="rounded-1 p-3 bg-light text-dark mt-4" style="text-align: start;">
+            <p class="para">1.Create your first wep page</p>
+            <p><b>The first thing you have to learn, is HTML, which i the standard marrkup language for creating wep pages.</b></p>
+            <a  class="btn btn-success rounded-1 text-light" style="text-align: center; padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#myModal"><span>learn HTML</span></a>
+        </div>
+        <p class="rounded-1 little mt-5 text-dark" id="btn-html" style="background-color: #EAB1B9;"><b>CSS</b></p>
+        <div class="rounded-1 p-3 bg-light text-dark mt-4" style="text-align: start;">
+            <p class="para">2. Style your wep page</p>
+            <p><b>The next step is to learn CSS, to t the layout of your wep page with beautiful colors, fonts, and much more.</b></p>
+            <a class="btn btn-success rounded-1 text-light" style="text-align: center; padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#myModal"><span>learn CSS</span></a>
+        </div>
+
+        <p class="rounded-1 little mt-5 text-dark bg-success" id="btn-html"><b>JavaScript</b></p>
+        <div class="rounded-1 p-3 bg-light text-dark mt-4" style="text-align: start;">
+            <p class="para">3. Make your wep page interactive</p>
+            <p><b>After studying HTML and CSS, you should learn JavaScript to create dynamic and ineractive wep pages for your users.</b></p>
+            <a class="btn btn-success rounded-1 text-light" style="text-align: center; padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#myModal"><span>learn JavaScript</span></a>
+        </div>
+
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+          
+                    <!-- Modal body -->
+                    <div class="modal-body text-dark">
+                        This page can not open now.
+                    </div>
+          
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+          
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="sec-next">
+        <h1 class="little"><b>What's Next?</b></h1>
+        <p class="para mt-4">Now you know how to use HTML, CSS and JavaScript to create, style, and make interactive wep pages.</p>
+        <p class="para mt-4">The next step is to publish your website, so that the ret of the world can see your work.</p>
+        <p class="para mt-4">There are tons of hosting services to choose from. We have made one for you, for free:</p>
+    </div>
+
+    <div id="sec-dark-add">
+        <div id="sec-dark1">
+            <h1 class="little"><b>W3Schools Spaces</b></h1>
+            <p class="para mt-3"><b>Build your own website with W3Schools Spaces.</b></p>
+            <a class="btn btn-success rounded-1 para mt-3 text-light" data-bs-toggle="modal" data-bs-target="#myModal"><span>Get Started for Free</span></a>
+            <img src="how-spaces-works3.png" id="sec-img">
+        </div>
+    </div>
+
+    <div class="container" id="sec-next">
+        <h1 class="little"><b>Front-End Developer!</b></h1>
+        <p class="para mt-4">People who create websites and wep applications for a living, are called Front-End Developers.</p>
+        <p class="para mt-4"><span class="text-warning">Tip:</span> Many Front-End devlopers also have basic knowledge of different CSS and JavaScript frameworks and libraries, like <span><a href="" data-bs-toggle="modal" data-bs-target="#myModal">Bootstrap</a></span>,<span><a  href="" data-bs-toggle="modal" data-bs-target="#myModal">SAA (CSS pre-processor)</a></span>, <span><a  href="" data-bs-toggle="modal" data-bs-target="#myModal">jQuery</a></span> and <span><a  href="" data-bs-toggle="modal" data-bs-target="#myModal">React</a></span>, and the popular version control system, <span><a  href="" data-bs-toggle="modal" data-bs-target="#myModal">Git</a></span>.</p>
+    </div>
+
+    <div id="sec-next" style="background-color: black;">
+        <h1 class="little"><b>What About Back-End?</b></h1>
+        <p class="para mt-4"><span><b>Front-End</b></span> development refers to the <span><b>client</b></span>-slide (how a web page <span><b>looks</b></span> ).</p>
+        <p class="para mt-4"><span><b>Back-End</b></span> development refers to the <span><b>server</b></span>-side (how a web page <span><b>works</b></span> ).</p>
+        <p class="para mt-4">Front-end code is used to create <span><b>static</b></span> websites, where the purpose is to display the web page. However, if you want to make your website <span><b>dynamic</b></span> (manage files and databases, add contact forms, control user-access, etc.), you need to learn a back-end programming language, like <span><a href="" data-bs-toggle="modal" data-bs-target="#myModal">PHP</a></span> or <span><a href="" data-bs-toggle="modal" data-bs-target="#myModal">Python</a></span>, and use <span><a href="" data-bs-toggle="modal" data-bs-target="#myModal">SQL</a></span> to communicate with databases.</p>
+        <p class="para">A list of other popular languages can be found on our <span><a href="" data-bs-toggle="modal" data-bs-target="#myModal">Homepage</a></span>.</p>
+    </div>
+</body>
+
+<footer style="padding-bottom: 50px;">
+
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52587.51298343534!2d104.85018305606052!3d11.581207178035283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310958eb100f7943%3A0xbfb1d20c8597be6!2sKandal%20Province%2C%20Cambodia!5e0!3m2!1sen!2sus!4v1692629100447!5m2!1sen!2sus"></iframe>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="container" id="div-footer">
+            <a href="front-end.html" class="btn btn-dark rounded-1">Front-End</a>
+            <a href="back-end.html" class="btn btn-dark rounded-1">Back-End</a>
+            <a href="full-stack.html" class="btn btn-dark rounded-1">Full Stack</a>
+        </div>
+    </div>
+    <i class="fa-solid fa-thumbs-up fa-3x d-flex justify-content-center"></i>
+</footer>
+</html>

@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Architects Daughter', cursive;
+}
+.title{
+    font-size: 60px;
+    color: #F2B809;
+    font-family: 'Architects Daughter', cursive;
+}
+.sub-title{
+    font-size: 30px;
+    color: #F2B809;
+    font-family: 'Architects Daughter', cursive;
+}
+.para{
+    font-size: 18px;
+}
+body{
+    background-color: black;
+    color: gray;
+}
+a{
+    transition: .5s;
+    color: gray;
+}
+a:hover{
+    color: #F2B809;
+}
+#MENU1{
+    display: none;
+}
+.navbar-nav{
+    display: flex;
+}
+#sec1{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+form{
+    padding: 50px;
+    width: 500px;
+}
+form div{
+    position: relative;
+    padding-bottom: 30px;
+}
+form input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: transparent;
+    color: #F2B809;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+}
+form input:hover{
+    border: 1px solid #F2B809;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    transition: 3s;
+}
+form label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    padding-bottom: 20px;
+    transition: .5s;
+    pointer-events: none;
+}
+input:focus~label,
+input:valid~label{
+    top: -5px;
+    color: #F2B809;
+}
+form p{
+    text-align: center;
+}
+#div-facebook{
+    background-color: #097EEB;
+    border-radius: 5px;
+    border: 1px solid #097EEB;
+    padding: 5px;
+    cursor: pointer;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+}
+#div-facebook:hover{
+    background-color: #000;
+    border: 1px solid #097EEB;
+}
+form div i:nth-child(1){
+    color: white;
+    font-size: 20px;
+}
+form div i:nth-child(2){
+    color: white;
+    font-size: 16px;
+}
+#google{
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+}
+#google:hover{
+    background-color: #097EEB;
+    border: 1px solid #097EEB;
+}
+#div{
+    background-color: transparent;
+    border: 0;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin-left: -3px;
+    justify-content: center;
+}
+#div input:nth-child(1){
+    background-color: transparent;
+    border: 1px solid #F2B809;
+    border-radius: 5px;
+    width: 100px;
+}
+#div input:nth-child(1):hover{
+    background-color: #F2B809;
+    color: black;
+}
+form p span a:hover{
+    color: #F2B809;
+}
+@media only screen and (max-width: 992px){
+    #MENU1{
+        display: block;
+    }
+    .nav-item{
+        display: none;
+    }
+}

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Architects Daughter', cursive;
+}
+body{
+    background-color: black;
+    color: gray;
+}
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+.tittle{
+    font-size: 50px;
+    color: #F2B809;
+    font-family: 'Architects Daughter', cursive;
+}
+.para{
+    font-size: 18px;
+}
+.sub-title{
+    font-size: 30px;
+    color: #F2B809;
+}
+#MENU1{
+    display: none;
+}
+a{
+    transition: .5s;
+    color: gray;
+}
+a:hover{
+    color: #F2B809;
+}
+#sec1{
+    border: 1px solid #F2B809;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    padding: 100px 50px;
+}
+
+
+#footer{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+#div-footer{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+#div-footer a{
+    padding: 10px 20px;
+    text-align: center;
+    transition: .5s;
+}
+#div-footer a:hover{
+    background-color: #F2B809;
+    color: black;
+}
+footer i{
+    width: 20px;
+    margin: auto;
+    transition: .5s;
+}
+footer i:hover{
+    color: #F2B809;
+    font-size: 50px;
+}
+.mapouter{
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 50vh;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 50vh;
+}
+.gmap_iframe {
+    height: 50vh !important;
+}
+
+
+@media only screen and (max-width: 992px){
+    .tittle{
+        font-size: 30px;
+    }
+    .sub-title{
+        font-size: 23px;
+    }
+    .nav-item a{
+        display: none;
+    }
+    #MENU1{
+        display: block;
+    }
+}
+@media only screen and (max-width: 600px){
+    #div-footer a{
+        padding: 5px;
+        font-size: 12px;
+    }
+    #footer{
+        padding: 10px;
+    }
+}

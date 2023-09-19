@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Architects Daughter', cursive;
+    transition: .5s;
+}
+body{
+    background-color: black;
+    color: gray;
+}
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+.little{
+    font-size: 50px;
+    color: #F2B809;
+    font-family: 'Architects Daughter', cursive;
+}
+.para{
+    font-size: 18px;
+}
+.sub-title{
+    font-size: 30px;
+    color: #F2B809;
+    font-family: 'Architects Daughter', cursive;
+}
+#MENU1{
+    display: none;
+}
+a{
+    color: gray;
+}
+a:hover{
+    color: #F2B809;
+}
+#sec1{
+    border: 1px solid #F2B809;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    padding: 50px;
+}
+#sec-dark-add{
+    background-color: #282A35;
+    display: flex;
+    justify-content: center;
+}
+#sec-dark1{
+    text-align: center; 
+    padding: 100px 200px; 
+    color: white;
+}
+#sec-dark1 a{
+    transition: .5s;
+}
+#sec-dark1 a:hover{
+    background-color: #F2B809;
+    color: black;
+    border: 0;
+}
+#sec-img{
+    width: 800px; 
+    margin-top: 50px;
+}
+#sec-dark1 a{ 
+    text-align: center; 
+    padding: 10px 20px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+#div-footer{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+#div-footer a{
+    padding: 10px 20px;
+    text-align: center;
+    transition: .5s;
+}
+#div-footer a:hover{
+    background-color: #F2B809;
+    color: black;
+}
+footer i{
+    width: 20px;
+    margin: auto;
+    transition: .5s;
+}
+footer i:hover{
+    color: #F2B809;
+    font-size: 50px;
+}
+.mapouter{
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 50vh;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 50vh;
+}
+.gmap_iframe {
+    height: 50vh !important;
+}
+
+
+@media only screen and (max-width: 1200px){
+    #sec-img{
+        width: 80%;
+    }
+    #sec-dark1{
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 992px){
+    .little{
+        font-size: 30px;
+    }
+    .sub-title{
+        font-size: 23px;
+    }
+    .nav-item a{
+        display: none;
+    }
+    #MENU1{
+        display: block;
+    }
+    #navbar-nav1{
+        width: 30%;
+    }
+    #navbar-nav2{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 600px){
+    #sec-dark1 a{
+        font-size: 14px;
+    }
+    #div-footer a{
+        font-size: 12px;
+        padding: 5px;
+    }
+    #footer{
+        padding: 10px;
+    }
+}
